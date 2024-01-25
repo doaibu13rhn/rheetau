@@ -1,0 +1,208 @@
+.header {
+  .navbar {
+    padding-top: 0 !important;
+  }
+  .navbar-nav {
+    width: 100%;
+    margin-left: auto;
+    margin-top: 40px;
+  }
+
+  .lang-btn {
+    &.active {
+      background-color: #54b67b;
+      color: #11302d !important;
+      border: 1px solid #54b67b;
+      border-radius: 20px;
+    }
+  }
+  .nav-link {
+    padding: 0;
+    &.active {
+      color: white;
+      .bi-caret-up-fill {
+        color: #78ad5a;
+      }
+    }
+  }
+  position: relative;
+  $dropdownHeight: auto;
+  $navbarHeight: 100px;
+
+  nav {
+    height: $navbarHeight;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #navbar.is-active {
+    background-color: #11302d;
+    .nav-link {
+      color: white;
+      @media (max-width: 480px) {
+        color: white !important;
+      }
+    }
+    .show {
+      .bi-list {
+        color: white !important;
+      }
+    }
+    .bi-list {
+      color: black !important;
+      @media (max-width: 480px) {
+        color: white !important;
+      }
+    }
+  }
+
+  .bi-caret-up-fill {
+    font-size: 0.7rem;
+  }
+
+  .lang-en,
+  .lang-id {
+    cursor: pointer;
+
+    &.active {
+      font-weight: bold;
+    }
+  }
+
+  .search-icon {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+  }
+
+  .active {
+    font-weight: bold;
+  }
+
+  .navbar {
+    z-index: 99999;
+    width: 100%;
+    padding-top: 20px;
+    position: fixed;
+  }
+
+  .navbar.dropdown-active {
+    display: flex;
+    background-color: #1a1a1a;
+  }
+
+  .language {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .lang-end {
+    color: $text-white;
+    right: 0;
+  }
+
+  .nav-item {
+    margin-inline: 1.8em;
+  }
+
+  @media (max-width: 1000px) {
+    .navbar-menu {
+      background: #1a1a1a;
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      // transform: translateY(-70px);
+      // z-index: -50;
+      top: 0;
+      left: 0;
+      transition: 0.3s ease;
+      padding-top: 20px;
+      padding-left: 37.5px;
+      padding-right: 37.5px;
+    }
+
+    .navbar-toggler {
+      border: none !important;
+      &:hover,
+      &:active,
+      &:focus {
+        box-shadow: none;
+      }
+
+      .toggle {
+        .bi {
+          font-size: 4rem !important;
+        }
+      }
+
+      .toggle i {
+        color: white;
+      }
+      @media (max-width: 480px) {
+        margin-top: 10px;
+      }
+      margin-top: 0px;
+    }
+
+    .nav-link.center {
+      font-size: 25px;
+      padding-top: 10px;
+    }
+
+    .language {
+      position: static;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      height: 40vh;
+    }
+
+    .lang-end {
+      font-size: 15px;
+    }
+  }
+
+  .navbar-menu {
+    @media (max-width: 480px) {
+      z-index: 999999;
+      background-color: #11302d;
+      li {
+        margin: 0;
+      }
+    }
+  }
+
+  .nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    &.active {
+      color: white;
+      .bi-caret-up-fill {
+        color: #78ad5a;
+      }
+    }
+    @media (max-width: 480px) {
+      margin-top: 40px;
+      align-items: flex-start;
+      font-size: 2.4rem;
+      .bi {
+        display: none;
+      }
+      color: #b2b2b3;
+      &.active {
+        color: white;
+      }
+    }
+  }
+
+  .lang-mobile {
+    position: absolute;
+    bottom: 20px;
+    .lang-btn {
+      padding: 5px 20px 5px 20px;
+    }
+  }
+}

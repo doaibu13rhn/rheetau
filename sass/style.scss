@@ -1,0 +1,171 @@
+/*
+Theme Name: Rheetal Theme
+Theme URI: https://wordpress.org/themes/twentytwentyone/
+Author: Billy D. Hidayat
+Version: 1.0.0
+*/
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "./variable";
+@import "./colors";
+@import "./typography";
+@import "./header";
+@import "./footer";
+
+// pages
+@import "./pages/home.scss";
+@import "./pages/about.scss";
+@import "./pages/products.scss";
+@import "./pages/career.scss";
+@import "./pages/contact.scss";
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.mother-station-maps-eng, .daughter-station-maps-eng, .sawdust-maps-eng, .woodchip-maps-eng, .distribusi-maps-eng, .lng-maps-eng {
+  object-fit: contain;
+  width: 90%;
+  height: 90%;
+  margin: 20px;
+}
+
+section {
+  // min-height: 986px;
+  // border-bottom: 1px solid red;
+  height: auto;
+  min-height: 100vh;
+
+  @media (max-width: 480px) {
+    min-height: 100vh;
+  }
+
+  @media (min-width: 2040px) {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .mobile-padding-0 {
+    padding: 0 !important;
+  }
+  .mobile-padding-1 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 1281px) {
+  .container-fluid {
+    max-width: 1920px;
+  }
+}
+
+.spacer {
+  width: 100%;
+  height: 150px;
+}
+
+.section-auto {
+  height: auto;
+  min-height: auto;
+}
+
+.container-fluid.h-100 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media (max-width: 480px) {
+    align-items: baseline;
+  }
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.section-auto {
+  .container-fluid.h-100 {
+    display: block;
+  }
+}
+
+.z-index-3 {
+  z-index: 3;
+}
+
+.navigation-item {
+  cursor: pointer;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.learn-more-btn {
+  border: 1px solid rgb(128, 128, 129, 0.2);
+  width: 180px;
+
+  align-items: center;
+  stroke-width: 0.2px;
+  color: black;
+  text-decoration: none;
+  padding: 2px 10px 2px 10px;
+  margin-top: auto;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  span {
+    margin-right: 10px;
+  }
+}
+
+.smaller-pic {
+  padding: 50px;
+  @media (max-width: 480px) {
+    padding: 0;
+  }
+}
+
+.logo-brand {
+  height: 80px;
+}
+
+footer {
+  .logo-brand {
+    @media (max-width: 480px) {
+      display: none;
+      height: 60px;
+      width: 128.38px;
+    }
+  }
+}
+
+// /* Apply landscape styles only for iPads */
+// @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+//   body {
+//     transform: rotate(90deg);
+//     transform-origin: top left;
+//     width: 100vh;
+//     height: 100vw;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//   }
+// }
+
+.lb-image {
+  border: none !important;
+}
+.lb-dataContainer {
+  display: none !important;
+}

@@ -1,0 +1,51 @@
+.career {
+  .career-section-1 {
+    background-color: #11302d;
+    .career-section-1-bg {
+      width: 100%;
+      height: $half-banner-height;
+      background-image: url(assets/images/career-section-1-bg.webp);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      // bottom:;
+    }
+
+    // .section-row {
+    //   // margin-bottom: 300px;
+    // }
+    // .wrapper {
+    //   position: relative;
+    //   .career-section-1-bg {
+    //     position: absolute;
+    //     z-index: 2;
+    //   }
+    //   .vector-1 {
+    //     position: absolute;
+    //     z-index: 1;
+    //     bottom: 50px;
+    //     right: 200px;
+    //   }
+    //   .vector-2 {
+    //     position: absolute;
+    //     z-index: 3;
+    //     bottom: 0;
+    //     left: 0;
+    //   }
+    // }
+
+    .img-1 {
+      width: 80%;
+      height: 80%;
+    }
+    .img-2 {
+      width: 50%;
+      margin-left: auto;
+      margin-top: 20px;
+    }
+    .img-3 {
+      width: 80%;
+      height: 80%;
+    }
+  }
+}

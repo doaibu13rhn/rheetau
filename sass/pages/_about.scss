@@ -1,0 +1,91 @@
+.about {
+  .about-section-1 {
+    .row {
+      z-index: 1;
+    }
+    color: white;
+    background-image: url(assets/images/about-bg-section-1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 63, 35, 0.8);
+    }
+
+    .content-section {
+      position: absolute;
+      width: 350px;
+      bottom: 80px;
+      right: 80px;
+      @media (max-width: 480px) {
+        position: unset;
+        z-index: 99;
+      }
+    }
+  }
+
+  .about-section-3 {
+    .about-section-3-bg {
+      width: 100%;
+      min-height: $half-banner-height + 40px;
+      height: auto;
+      background-image: url(assets/images/about-section-3-bg.webp);
+      background-size: contain;
+
+      background-repeat: no-repeat;
+      background-position: center center;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+    .section-row {
+      margin-bottom: 100px;
+      @media (max-width: 480px) {
+        margin-bottom: 0;
+      }
+    }
+    .wrapper {
+      position: relative;
+      left: 0;
+      .about-section-3-bg {
+        position: absolute;
+        z-index: 2;
+        left: 0;
+      }
+      .vector-1 {
+        position: absolute;
+        z-index: 1;
+        bottom: 50px;
+        right: 200px;
+      }
+      .vector-2 {
+        position: absolute;
+        z-index: 3;
+        bottom: 0;
+        left: 0;
+      }
+    }
+
+    .img-1 {
+      width: 80%;
+      height: 80%;
+    }
+    .img-2 {
+      width: 50%;
+      margin-left: auto;
+      margin-top: 20px;
+    }
+    .img-3 {
+      width: 80%;
+      height: 80%;
+    }
+  }
+}

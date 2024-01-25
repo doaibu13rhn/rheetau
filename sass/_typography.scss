@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Messina Sans";
+  src: url(fonts/MessinaSans-Regular.ttf);
+
+  font-family: "Messina Sans MEDIUM";
+  src: url(fonts/MessinaSans-Medium.ttf);
+
+  font-family: "Messina Sans LIGHT";
+  src: url(fonts/MessinaSans-Light.ttf);
+
+  font-family: "Messina Sans REGULER";
+  src: url(fonts/MessinaSans-Regular.ttf);
+
+  font-family: "Messina Sans BOLD";
+  src: url(fonts/MessinaSans-Bold.ttf);
+}
+
+body {
+  font-size: 15px;
+  @media (max-width: 480px) {
+    font-size: 15px;
+  }
+  // font-family: "Messina Sans LIGHT", sans-serif;
+}
+
+p {
+  font-size: 20px;
+  @media (max-width: 480px) {
+    font-size: 14px;
+  }
+}
+html {
+  font-size: 14px;
+
+  .nav-link {
+    font-weight: 300;
+    font-size: 0.9rem;
+  }
+
+  .t-key {
+    font-weight: bold;
+  }
+
+  /* Media Query for Mobile Devices */
+  @media (max-width: 480px) {
+    font-size: 10px;
+  }
+
+  /* Media Query for low resolution  Tablets, Ipads */
+  @media (min-width: 481px) and (max-width: 767px) {
+    font-size: 14px;
+  }
+
+  /* Media Query for Tablets Ipads portrait mode */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    font-size: 14px;
+  }
+
+  /* Media Query for Laptops and Desktops */
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    font-size: 14px;
+  }
+
+  /* Media Query for Large screens */
+  @media (min-width: 1281px) {
+    font-size: 16px;
+  }
+  /* Media Query for Large screens */
+  @media (min-width: 1440px) {
+    font-size: 20px;
+  }
+}
+
+h1 {
+  font-family: "Messina Sans LIGHT", sans-serif;
+  font-size: 3rem;
+  font-weight: 100;
+  font-style: normal;
+  position: relative;
+  b {
+    font-weight: 400;
+  }
+
+  &:before {
+    content: "";
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    top: 1.4rem;
+    left: -1.6rem;
+    @media (max-width: 480px) {
+      top: 1rem;
+      left: -2rem;
+    }
+    background-image: url(assets/images/arrow-right-green.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  &.default {
+    &:before {
+      background-image: none;
+    }
+  }
+}
+
+h1.text-center {
+  &:before {
+    background-image: none;
+  }
+}
+
+h4.custom {
+  position: relative;
+  &:before {
+    content: "";
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    top: 0.5rem;
+    left: -1.6rem;
+
+    @media (max-width: 480px) {
+      top: 4px;
+      left: -2rem;
+    }
+    background-image: url(assets/images/arrow-right-green.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+}
+span.sub-header {
+  font-size: 0.8rem;
+  @media (max-width: 480px) {
+    font-size: 1.5rem;
+  }
+}
+
+span.green {
+  color: #78ad5a;
+}
+span.green-lt {
+  color: #54b67b;
+}

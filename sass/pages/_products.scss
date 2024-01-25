@@ -1,0 +1,214 @@
+.products {
+  height: calc(100vh - 100px);
+  h4 {
+    color: #54b67b;
+    @media (max-width: 480px) {
+      font-size: 1.4em;
+    }
+  }
+  @media (max-width: 480px) {
+    height: auto;
+  }
+  overflow: hidden;
+  .products-section-1 {
+    padding-left: 40px;
+
+    margin-top: auto;
+    height: calc(100vh - 100px);
+    @media (max-width: 480px) {
+      height: auto;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    min-height: auto;
+    display: block;
+
+    .wrap {
+      position: relative;
+      align-items: stretch;
+
+      .abs {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        overflow-y: scroll;
+        h1,
+        h2,
+        h4 {
+          color: #54b67b;
+        }
+        p.h-100 {
+          height: 80% !important;
+        }
+        padding-right: 50px;
+      }
+    }
+
+    .scrollable-section {
+      display: flex;
+      width: 100%;
+      h5 {
+        color: #78ad5a;
+      }
+      height: calc(100vh - 100px);
+
+      // height: 400px;
+      @media (min-width: 1281px) {
+        // height: 100%;
+      }
+
+      .navigation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 10px;
+        border-right: 1px dotted black;
+
+        .sub-item {
+          font-size: 0.8em;
+          cursor: pointer;
+          white-space: nowrap;
+          margin-top: 4px;
+          &.active {
+            color: #78ad5a;
+            &:before {
+              content: "";
+              width: 20px;
+              height: 15px;
+              position: absolute;
+              top: 24%;
+              left: -1.6rem;
+              background-image: url(assets/images/arrow-right-green.webp);
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: contain;
+            }
+          }
+        }
+
+        .navigation-item {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          position: relative;
+          font-weight: bold;
+          &.active {
+            color: #78ad5a;
+            &:before {
+              content: "";
+              width: 20px;
+              height: 15px;
+              position: absolute;
+              top: 24%;
+              left: -1.6rem;
+              background-image: url(assets/images/arrow-right-green.webp);
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: contain;
+            }
+          }
+        }
+      }
+      .content {
+        width: 100%;
+        // height: 100%;
+        padding-left: 50px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+        display: none;
+        // margin-top: auto;
+        // margin-bottom: auto;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        // justify-content: center;
+        // align-items: center;
+
+        &.active {
+          display: block;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .mother-station-maps,
+        .daughter-station-maps,
+        .sawdust-maps,
+        .woodchip-maps,
+        .distribusi-maps,
+        .lng-maps {
+          object-fit: contain;
+          width: 90%;
+          height: 90%;
+          margin: 20px;
+        }
+      }
+    }
+
+    .product-content {
+      display: none;
+      &.active {
+        display: block;
+      }
+      .dynamic-title {
+        display: none;
+        &.active {
+          display: block;
+        }
+      }
+      .dynamic-content {
+        display: none;
+        &.active {
+          display: block;
+        }
+        img {
+          margin-top: 40px !important;
+        }
+      }
+
+      .custom ~ img {
+        margin-top: 10px;
+      }
+    }
+    .navigation-pills {
+      display: flex;
+      margin-bottom: 10px;
+      .item {
+        border: 1px solid #54b67b;
+        border-radius: 13px;
+        margin-right: 10px;
+        padding-left: 8px;
+        padding-right: 8px;
+        &.active {
+          background-color: #11302d;
+          color: #54b67b;
+        }
+      }
+    }
+    .navigation-text {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+      .item {
+        font-size: smaller;
+        // flex-basis: 50%;
+        margin-right: 5px;
+        white-space: nowrap;
+        word-break: keep-all;
+        margin-bottom: 5px;
+        color: grey;
+        &.active {
+          color: #54b67b;
+          font-weight: 900;
+        }
+      }
+    }
+  }
+
+  .horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

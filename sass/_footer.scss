@@ -1,0 +1,29 @@
+footer {
+  p {
+    font-size: 15px;
+  }
+  background-color: #02110e;
+  color: white;
+  p {
+    margin: 0;
+  }
+  .sub {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+
+  .container-fluid.h-100 {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .certificate {
+    width: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .logo-brand {
+    display: none;
+  }
+}
