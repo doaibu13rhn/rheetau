@@ -30,7 +30,7 @@
                         height="600" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <div class="py-3">
-                        ©2023 Reethau Energi Bersih
+                        ©2023 Reethau Clean Energy
                     </div>
 
                 </div>

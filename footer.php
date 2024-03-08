@@ -16,17 +16,16 @@ $enSlug = "";
                     <!-- <div>Privacy & Policy</div> -->
                 </div>
             </div>
-            <div class="col-md-3 mt-md-3"></div>
-            <div class="col-md-2 mt-md-3"></div>
-            <div class="col-md-2 col-12 mt-md-3 mt-3 d-md-flex justify-content-end">
-                <a href="<?= get_template_directory_uri()."/assets/pdf/reethau-certificate.pdf" ?>"
-                    download="reethau-certificate.pdf" class="text-decoration-none text-white">
+            <div class="col-md-1 col-lg-3 mt-md-3"></div>
+            <div class="col-md-2 col-lg-1 mt-md-3"></div>
+            <div class="col-md-2 col-lg-2 col-12 mt-md-3 mt-3 d-md-flex justify-content-end">
+                <div>
                     <h5 class="sub">Certificate</h5>
                     <img src="<?= get_template_directory_uri()."/assets/images/certificate.webp" ?>" alt="certificate"
                         class="certificate mt-2">
-                </a>
+                </div>
             </div>
-            <div class="col-12 col-md-3 mt-5 mt-md-3">
+            <div class="col-12 col-md-3 col-lg-3 mt-5 mt-md-3">
                 <h5 class="sub">Head Office</h5>
                 <p>
                     Jl. Darmawangsa Raya No. 8 <br>

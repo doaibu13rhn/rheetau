@@ -56,6 +56,19 @@
                 <div class="col-12 col-md-4 align-self-md-end order-md-1 order-4 smaller-pic">
                     <img src="http://reethau.com/wp-content/uploads/2023/12/home-section-2-1.webp" alt="lng-tabung"
                         class="w-100">
+                    <div class="d-md-none d-flex py-5">
+                        <a href="/tentang" class="learn-more-btn d-flex d-md-none">
+                            <span class="d-none d-md-flex"></span>
+                            <span class="d-flex d-md-none">Learn More</span>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="4" viewBox="0 0 21 4"
+                                fill="none">
+                                <path d="M0 1.84375H15.2991" stroke="black" stroke-width="0.25"
+                                    stroke-miterlimit="10" />
+                                <path d="M14.7061 3.66538V0L20.0106 1.84422L14.7061 3.66538Z" fill="black" />
+                            </svg>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-12 col-md-4 align-self-center text-center mt-md-5 order-md-2 order-3">
                     <p>Energy is the prime mover of the wheels of life and the world economy. Using environmentally

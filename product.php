@@ -668,7 +668,7 @@
                                 <div class="item" data-att="sawdust">Woodpallet Processing</div>
                                 <div class="item" data-att="woodchip">Woodchip Processing</div>
                                 <div class="item" data-att="distribution">Biomass Distribution</div>
-                                <div class="item" data-att="pabrik">Biomass plant</div>
+                                <div class="item" data-att="pabrik">Biomass Plant</div>
                             </div>
                         </div>
                     </div>

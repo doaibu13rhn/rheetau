@@ -59,19 +59,7 @@
                 <div class="col-12 col-md-4 align-self-md-end order-md-1 order-4 smaller-pic">
                     <img src="http://reethau.com/wp-content/uploads/2023/12/home-section-2-1.webp" alt="lng-tabung"
                         class="w-100">
-                </div>
-                <div class="col-12 col-md-4 align-self-center text-center mt-md-5 order-md-2 order-3 my-5 my-0">
-                    <p>Energi merupakan penggerak utama roda kehidupan dan perekonomian dunia.
-                        Penggunaan sumber energi yang ramah lingkungan merupakan salah satu cara menjaga kelestarian dan
-                        keseimbangan ekosistem.</p>
-                </div>
-                <div class="col-12 col-md-4 order-md-3 order-2">
-                    <img src="http://reethau.com/wp-content/uploads/2023/12/home-section-2-2.webp" alt="distribusi"
-                        class="mb-md-5 w-100 p-md-0">
-                </div>
-                <div class="col-12 order-md-4 order-1">
-                    <div class="d-flex d-md-none justify-content-between align-items-center mb-4">
-                        <span class="sub-header green">Visi dan Misi</span>
+                    <div class="d-md-none d-flex py-5">
                         <a href="/tentang" class="learn-more-btn d-flex d-md-none">
                             <span class="d-none d-md-flex">Pelajari lebih lanjut</span>
                             <span class="d-flex d-md-none">Telusuri</span>
@@ -83,6 +71,22 @@
                                 <path d="M14.7061 3.66538V0L20.0106 1.84422L14.7061 3.66538Z" fill="black" />
                             </svg>
                         </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 align-self-center text-center mt-md-5 order-md-2 order-3 my-5 my-0">
+                    <p>Energi merupakan penggerak utama roda kehidupan dan perekonomian dunia.
+                        Penggunaan sumber energi yang ramah lingkungan merupakan salah satu cara menjaga kelestarian dan
+                        keseimbangan ekosistem.</p>
+                </div>
+                <div class="col-12 col-md-4 order-md-3 order-2">
+                    <img src="http://reethau.com/wp-content/uploads/2023/12/home-section-2-2.webp" alt="distribusi"
+                        class="mb-md-5 w-100 p-md-0">
+
+                </div>
+                <div class="col-12 order-md-4 order-1">
+                    <div class="d-flex d-md-none justify-content-between align-items-center mb-4">
+                        <span class="sub-header green">Visi dan Misi</span>
+
                     </div>
                     <div class="d-flex align-items-end justify-content-between">
                         <h1 class="mb-5 mb-md-0">
